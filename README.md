@@ -24,14 +24,19 @@ If you want to use Xana for the g2 calculation you can:
 * installs all the requirements with the following commands:
   
 ```bash
+# check python and pip
 python3 --version         # check python version
 python3 -m venv .venv     # make new virtual environment
 source .venv/bin/activate # activate it
 pip install --upgrade pip # upgrade pip
+
+# install xana
 pip install -r requirements.txt # install requirements for xana
-git clone https://github.com/reiserm/Xana.git # 
+git clone https://github.com/reiserm/Xana.git  
 cd Xana
 pip install -e .
+
+# make kernel based on your environment
 pip install --upgrade ipykernel
 python -m ipykernel install --user --name p10-env
 ```
