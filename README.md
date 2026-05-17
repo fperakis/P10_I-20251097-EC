@@ -1,12 +1,10 @@
 # P10_I-20251097-EC
 Analysis tools for beamtime `I-20251097` EC at P10, Petra III, DESY. 
 
-### Setting up your jupyter notebooks on Maxwell cluster
-
-Read intructions here: 
+Intructions to Maxwell cluster: 
 https://wiki.desy.de/maxwell/documentation/access/
 
-Connect to maxwell cluster
+Connect to maxwell cluster with jupyter notebook:
 https://max-jhub.desy.de.
 
 Path to data 
