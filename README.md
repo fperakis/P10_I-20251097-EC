@@ -23,13 +23,12 @@ Path to current data
 * installs all the requirements with the following commands:
   
 ```bash
-python3 --version # check python version
-python3 -m venv .venv
-ls -a 
-source .venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-git clone https://github.com/reiserm/Xana.git
+python3 --version         # check python version
+python3 -m venv .venv     # make new virtual environment
+source .venv/bin/activate # activate it
+pip install --upgrade pip # upgrade pip
+pip install -r requirements.txt # install requirements for xana
+git clone https://github.com/reiserm/Xana.git # 
 cd Xana
 pip install -e .
 pip install --upgrade ipykernel
