@@ -18,14 +18,14 @@ Path to current data
 ```
 
 ### Install Xana and setup a virtual environment
-You can also create a new environment to install all the requirements with the following commands:
+This installs Xana [https://github.com/reiserm/Xana] and creates a new environment for the jupyter notbeto install all the requirements with the following commands:
 ```bash
-python3 --version # check that it's Python 3.11 - usually
+python3 --version # check python version
 python3 -m venv .venv
 ls -a 
 source .venv/bin/activate
 pip install --upgrade pip
-pip install -r 03-scripts/requirements.txt
+pip install -r requirements.txt
 git clone https://github.com/reiserm/Xana.git
 cd Xana
 pip install -e .
