@@ -18,6 +18,7 @@ Path to current data
 ```
 
 ### Install Xana and setup a virtual environment
+If you want to use Xana for the g2 calculation you can:
 * Install Xana [https://github.com/reiserm/Xana] 
 * Creates a new virtual environment that you can use from the jupyter notebooks
 * installs all the requirements with the following commands:
