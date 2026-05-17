@@ -18,7 +18,10 @@ Path to current data
 ```
 
 ### Install Xana and setup a virtual environment
-This installs Xana [https://github.com/reiserm/Xana] and creates a new environment for the jupyter notbeto install all the requirements with the following commands:
+* Install Xana [https://github.com/reiserm/Xana] 
+* Creates a new virtual environment that you can use from the jupyter notebooks
+* installs all the requirements with the following commands:
+  
 ```bash
 python3 --version # check python version
 python3 -m venv .venv
