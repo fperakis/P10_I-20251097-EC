@@ -1,6 +1,12 @@
 # P10_I-20251097-EC
 Analysis tools for beamtime `I-20251097` EC at P10, Petra III, DESY. 
 
+To download the repo:
+
+```bash
+$ git clone https://github.com/fperakis/P10_I-20251097-EC.git
+```
+
 ### Maxwell cluster
 Intructions to Maxwell cluster: 
 https://wiki.desy.de/maxwell/documentation/access/
