@@ -17,7 +17,7 @@ Path to current data
 /asap3/petra3/gpfs/p10/2026/data/11023455/
 ```
 
-### Virtual environment
+### Install Xana and setup a virtual environment
 You can also create a new environment to install all the requirements with the following commands:
 ```bash
 python3 --version # check that it's Python 3.11 - usually
